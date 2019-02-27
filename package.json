@@ -1,6 +1,6 @@
 {
   "name": "qwertycoin-bdca",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Qwertycoin: Blockchain Data Collection Agent",
   "main": "index.js",
   "scripts": {
@@ -8,22 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TurtlePay/blockchain-data-collection-agent.git"
+    "url": "git+https://github.com/qwertycoin-org/blockchain-data-collection-agent.git"
   },
   "keywords": [
     "Qwertycoin",
-    "TurtlePay"
+    "npm"
   ],
-  "author": "TurtlePay Development Team",
+  "author": "Qwertycoin Development Team",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/TurtlePay/blockchain-data-collection-agent/issues"
+    "url": "https://github.com/qwertycoin-org/blockchain-data-collection-agent/issues"
   },
-  "homepage": "https://github.com/TurtlePay/blockchain-data-collection-agent#readme",
+  "homepage": "https://github.com/qwertycoin-org/blockchain-data-collection-agent#readme",
   "dependencies": {
     "big-integer": "^1.6.36",
     "mysql": "^2.16.0",
-    "qwertycoin-rpc": "^0.8.7"
+    "qwertycoin-nodejs-rpc": "^0.8.9"
   },
   "devDependencies": {
     "standard": "^12.0.1"

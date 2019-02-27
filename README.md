@@ -1,11 +1,11 @@
-# TurtlePay™ Blockchain Data Collection Agent (BDCA)
+# Qwertycoin fork of TurtlePay™ Blockchain Data Collection Agent (BDCA)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/TurtlePay/blockchain-data-collection-agent.svg?branch=master)](https://travis-ci.org/TurtlePay/blockchain-data-collection-agent) [![Build status](https://ci.appveyor.com/api/projects/status/github/TurtlePay/blockchain-data-collection-agent?branch=master&svg=true)](https://ci.appveyor.com/project/brandonlehmann/blockchain-data-collection-agent/branch/master)
+[![Build Status](https://travis-ci.org/qwertycoin-org/blockchain-data-collection-agent.svg?branch=master)](https://travis-ci.org/qwertycoin-org/blockchain-data-collection-agent) [![Build status](https://ci.appveyor.com/api/projects/status/github/qwertycoin-org/blockchain-data-collection-agent?branch=master&svg=true)](https://ci.appveyor.com/project/brandonlehmann/blockchain-data-collection-agent/branch/master)
 
 ## Prerequisites
 
-* [TurtleCoin](https://github.com/turtlecoin/turtlecoin) (development branch)
+* [Qwertycoin](https://github.com/qwertycoin-org/qwertycoin) (development branch)
 * MariaDB/MySQL with InnoDB support
 * [Node.js](https://nodejs.org/) LTS
 
@@ -18,7 +18,7 @@ We know that this documentation needs cleaned up and made easier to read. We'll 
 1) Clone this repository to wherever you'd like the API to run:
 
 ```bash
-git clone https://github.com/TurtlePay/blockchain-data-collection-agent
+git clone https://github.com/qwertycoin-org/blockchain-data-collection-agent
 ```
 
 2) Install the required Node.js modules
@@ -43,7 +43,7 @@ cd blockchain-data-collection-agent && npm install
   },
   "node": {
     "host": "localhost",
-    "port": 11898
+    "port": 8197
   }
 }
 ```

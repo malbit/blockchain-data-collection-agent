@@ -10,7 +10,7 @@ const DatabaseBackend = require('./lib/databaseBackend')
 const Metronome = require('./lib/metronome')
 const util = require('util')
 
-const enableDebugging = !!((typeof process.env.QWERTYCOIN_DEBUG !== 'undefined' && (process.env.QWERTYCOIN_DEBUG.toUpperCase() === 'ON' || parseInt(process.env.QWERTYCOIN_DEBUG) === 1)))
+const enableDebugging = true //!!((typeof process.env.QWERTYCOIN_DEBUG !== 'undefined' && (process.env.QWERTYCOIN_DEBUG.toUpperCase() === 'ON' || parseInt(process.env.QWERTYCOIN_DEBUG) === 1)))
 
 /* Let's set up a standard logger. Sure it looks cheap but it's
    reliable and won't crash */
@@ -88,13 +88,13 @@ timer.on('tick', () => {
   database.getLastKnownBlockHashes().then((lastKnownHashes) => {
     return collector.queryBlocks(lastKnownHashes)
   }).then((results) => {
-    if (results.blocks.length === 1) {
+    if (results.items.length === 1) {
       /* If we only got one block back, then we are already at the top */
-      throw new BreakSignal()
+      //throw new BreakSignal()
     }
 
     /* Try to save what we've collected */
-    return database.saveBlocks(results.blocks, results.height)
+    return database.saveBlocks(results.items, results.height)
   }).then((results) => {
     /* Great, we saved them, let's tell print out some information about
        what we managed to collect */

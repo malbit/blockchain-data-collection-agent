@@ -1,9 +1,10 @@
-# Qwertycoin fork of TurtlePay™ Blockchain Data Collection Agent (BDCA)
+![image](https://cdn.qwertycoin.org/images/press/other/qwc-github-3.png)
+#### Master Build Status
+[![Build Status](https://travis-ci.org/qwertycoin-org/blockchain-data-collection-agent.svg?branch=master)](https://travis-ci.org/qwertycoin-org/blockchain-data-collection-agent) [![Build status](https://ci.appveyor.com/api/projects/status/github/qwertycoin/blockchain-data-collection-agent?branch=master&svg=true)](https://ci.appveyor.com/project/qwertycoin/blockchain-data-collection-agent/branch/master)
 
 [![NPM](https://nodei.co/npm/qwertycoin-bdca.png?downloads=true&stars=true)](https://nodei.co/npm/qwertycoin-bdca/)
 
-#### Master Build Status
-[![Build Status](https://travis-ci.org/qwertycoin-org/blockchain-data-collection-agent.svg?branch=master)](https://travis-ci.org/qwertycoin-org/blockchain-data-collection-agent) [![Build status](https://ci.appveyor.com/api/projects/status/github/qwertycoin-org/blockchain-data-collection-agent?branch=master&svg=true)](https://ci.appveyor.com/project/qwertycoin-org/blockchain-data-collection-agent/branch/master)
+# Qwertycoin fork of TurtlePay™ Blockchain Data Collection Agent (BDCA)
 
 ## Prerequisites
 
